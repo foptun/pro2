@@ -1,10 +1,10 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
 
-    <!-- <h1>
-      Home
-      <small>Control panel</small>
-    </h1> -->
+    <h1>
+      ตรอ.
+      <small>ตรวจสภาพรถเอกชน</small>
+    </h1>
     <!-- <ol class="breadcrumb">
       <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
     </ol> -->
@@ -39,6 +39,7 @@
           if($no == 1){
             $no++;
 ?>
+
     <div class="item active">
       <center>
         <img src="data:image/jpeg;base64,<?=base64_encode($row['picture']);?>" >
@@ -80,12 +81,37 @@
 
 
     </div>
+
+    <br>
+
     <!-- /.row -->
     <!-- Main row -->
     <div class="row">
 
-      <div class="col-md-12">
-        
+      <div class="col-md-1">
+        <!-- Column วเว้นว่างเพื่อระยะห่าง่าง -->
+      </div>
+
+      <div class="col-md-10">
+      
+        <div class="box box-warning">
+          
+          <form class="form-group" action="index.php?menu=home" method="post" enctype="multipart/form-data">
+            <div class="box-body">
+              <div class="box-header with-border">
+                  <h3 class="box-title">ตรวจสอบข้อมูลรถ</h3>
+              </div>
+              <input class="form-control" type="text" name="name" placeholder="เลขทะเบียนรถ">
+              <br>
+              <input class="btn btn-warning" type="submit" value="ค้นหา"> 
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="col-md-1">
+        <!-- Column วเว้นว่างเพื่อระยะห่าง่าง -->
       </div>
 
       <!-- Left col -->

@@ -127,13 +127,14 @@ $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
 
-          <!-- <li>
-            <a href="index.php?menu=logout" onclick="return confirm('Confirm Logout!');">
-              <span class="hidden-xs">Sign Out</span>
+          <li>
+            <a href="#" >
+              <span class="hidden-xs">ตรอ. สถานตรวจสภาพรถเอกชน</span>
             </a>
 
-          </li> -->
-          </a>
+            <!-- <span class="hidden-xs">ครอ. สถานตรวจสภาพรถเอกชน</span> -->
+          </li>
+
           <!-- Control Sidebar Toggle Button -->
 
         </ul>
@@ -157,17 +158,9 @@ $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
       </div>
 
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">MAIN NAVIGATION</li>
-
       
+      <?php include('menu.php');?>
 
-        <li><a href="index.php?menu=home"><i class="fa fa-dashboard"></i> <span>Home</span></a></li>
-        <!-- <li><a href="index.php?menu=##############"><i class="fa fa-dashboard"></i> <span>ตรวจสอบข้อมูลรถ</span></a></li> -->
-        
-
-
-      </ul>
     </section>
     <!-- /.sidebar -->
   </aside>

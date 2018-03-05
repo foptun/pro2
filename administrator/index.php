@@ -133,7 +133,7 @@ $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
             </a>
 
           </li>
-          </a>
+
           <!-- Control Sidebar Toggle Button -->
 
         </ul>
@@ -157,16 +157,9 @@ $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
       </div>
 
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">MAIN NAVIGATION</li>
-
       
-        <li><a href="index.php?menu=home"><i class="fa fa-dashboard"></i> <span>Home</span></a></li>
-        <li><a href="index.php?menu=promotion-show"><i class="fa fa-dashboard"></i> <span>จัดการโปรโมชั่น</span></a></li>
-        
+      <?php include('menu.php');?>
 
-
-      </ul>
     </section>
     <!-- /.sidebar -->
   </aside>
