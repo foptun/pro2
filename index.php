@@ -4,7 +4,7 @@ session_start();
 
 //require_once 'chk-session.php';
 require_once 'connect/connect.php';
-require_once 'model/AdminModel.php';
+// require_once 'model/AdminModel.php';
 
 $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
 
@@ -113,7 +113,7 @@ $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
     <!-- Logo -->
     <a href="#" class="logo" style="background-color:rgb(225, 125, 0)">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>ตรอ</b>.</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>ตรวจสภาพรถ</b></span>
     </a>

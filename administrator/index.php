@@ -111,14 +111,14 @@ $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="#" class="logo">
+    <a href="#" class="logo" style="background-color:rgb(0, 125, 0)">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>A</b>DM</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Administrator</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top">
+    <nav class="navbar navbar-static-top" style="background-color:rgb(0, 145, 0)">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>
@@ -148,7 +148,7 @@ $zadminModel = unserialize($_SESSION['LOGIN_ADMIN']);
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/user-admin-160x160.png" class="img-circle" alt="User Image">
+          <img src="dist/img/admin-icon.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p><?php echo $zadminModel->firstname." ".$zadminModel->lastname ?></p>
