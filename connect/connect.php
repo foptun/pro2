@@ -1,7 +1,7 @@
 <?php
 
   // on server
-  $servername = "mysql";
+  $servername = "db";
   $username = "root";
   $password = "1234";
   $dbname = "pro2";

@@ -2,6 +2,10 @@
     <li class="header">MAIN MENU</li>
 
     <li><a href="index.php?menu=home"><i class="fa fa-dashboard"></i> <span>Home</span></a></li>
+    <li><a href="index.php?menu=cal-check-car"><i class="fa fa-dashboard"></i> <span>คำนวนค่าตรวจสภาพรถ</span></a></li>
+    <li><a href="index.php?menu=cal-reg-renew"><i class="fa fa-dashboard"></i> <span>คำนวนค่าต่อทะเบียน</span></a></li>
+    <li><a href="index.php?menu=cal-service"><i class="fa fa-dashboard"></i> <span>คำนวนค่าตบริการ</span></a></li>
+    <li><a href="index.php?menu=cal-premium"><i class="fa fa-dashboard"></i> <span>คำนวนค่าเบี้ยประกันภัย</span></a></li>
     <!-- <li><a href="index.php?menu=promotion-show"><i class="fa fa-dashboard"></i> <span>จัดการโปรโมชั่น</span></a></li> -->
     <li><a href="index.php?menu=customer-show"><i class="fa fa-dashboard"></i> <span>จัดการลูกค้า</span></a></li>
     <!-- <li><a href="index.php?menu=category-car-show"><i class="fa fa-dashboard"></i> <span>จัดการประเภทรถ</span></a></li> -->

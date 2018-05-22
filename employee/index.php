@@ -225,8 +225,10 @@ $zadminModel = unserialize($_SESSION['LOGIN_EMPLOYEE']);
 <script type="text/javascript">
   $(document).ready(function () {
       var path = window.location.href.split("/").pop();
-
-      var target = $('ul li a[href="' + path + '"]');
+      
+      path = path.split("&");
+      
+      var target = $('ul li a[href="' + path[0] + '"]');
       //target.addClass('active');
 
       target.parent().addClass('active');
